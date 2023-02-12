@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://lh3.googleusercontent.com/o9mWhNvdkIdC7DG15AEX5HJvG-B270-2q1cHbxM14V46zlFaXEikmc8rE0AJ_NJTJDFeFLkLzJgUcPCp3SrmO5-2YZZgwNTWNoS-tYmFCtFfxAZgBWVVUVb_TPEDfuII0lX6X3k42Q=w2400);
+}
+
+h1{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.03rem;
+    -webkit-text-stroke-color: #800020;
+}
+
+.btn{
+    border: 0.1rem solid #800020;
+    color: black;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #800020;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 #800020;
+}

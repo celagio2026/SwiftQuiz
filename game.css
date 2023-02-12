@@ -1,0 +1,79 @@
+body{
+    background-image: url(https://lh3.googleusercontent.com/Ulc0YTUb31Ec8783QDCxCnLxbri46zJZEXwFkNsxuL4T0GWlLZYVE2t1nh6xiS362JAiGR_526rMaUp4UmXnVjX_TgbZgukl2Ub1vWWsxfPFbs4ifFddnw47jhggcTIeiwCBK9CRFA=w2400);
+}
+
+p{
+    font-weight: 500;
+}
+
+#score{
+    color: #271c11;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid #293a27;
+    background: linear-gradient(to right, #dfbad6a2, #8f5c82be);
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #613d58cc;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: #a6e1a162;
+    color: #0f3f0b;
+    border-right: 0.1rem solid #293a27;
+}
+
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct{
+    background-color: #28a745;
+}
+
+.incorrect{
+    background-color: #fd0019;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#loader{
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #56a5eb;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+}
